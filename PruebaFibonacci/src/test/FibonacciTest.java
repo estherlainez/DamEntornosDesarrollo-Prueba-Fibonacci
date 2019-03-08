@@ -7,8 +7,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-class Fibonacci {
+import code.FibonacciRecursive;
+class FibonacciTest {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -28,7 +28,9 @@ class Fibonacci {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		FibonacciRecursive fbr=new FibonacciRecursive();
+		int resultado= fbr.fibonacci(5);
+		assertEquals(5,resultado);
 	}
 
 }

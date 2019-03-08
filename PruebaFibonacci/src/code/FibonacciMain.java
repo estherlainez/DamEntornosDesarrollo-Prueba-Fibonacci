@@ -6,7 +6,7 @@ public class FibonacciMain {
 		// TODO Auto-generated method stub
 
 		FibonacciRecursive fbr= new FibonacciRecursive();
-		System.out.println(fbr.fibonacci(9));
+		System.out.println(fbr.fibonacci(4));
 	}
 
 }

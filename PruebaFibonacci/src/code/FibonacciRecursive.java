@@ -1,7 +1,17 @@
 package code;
 
 public class FibonacciRecursive {
-	int fibonacci(int n)
+	
+	
+	/**
+	 * 
+	 * 	@param admite un entero como parámetro 
+	 * Esto es documentacion para el javadoc
+	 *	@return devuelve el valor de la serie
+	 * 
+	 * este parametro es un entero para indicar el orden de la serie fibonacci
+	 */
+	public int fibonacci(int n)
 	{
 	    if (n>1){
 	       return fibonacci(n-1) + fibonacci(n-2);  //función recursiva
